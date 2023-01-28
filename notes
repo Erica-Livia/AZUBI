@@ -1,0 +1,15 @@
+selector {declaration block}
+
+declaration: property:value
+
+Selector {property:value; property:value; property:value; ...}
+
+Five categories of CSS selectors
+1. Simple Selector
+* Name
+* Class
+* Id
+
+h3{
+    color:red; font-size:20px; background-color:blue
+}

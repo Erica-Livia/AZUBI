@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scripts</title>
+</head>
+
+<body>
+    <p id="sampletext" >This is a sample text</p>
+    <p id="changethis" ></p>
+    <button onclick="changeText()">Click me to change text</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("sampletext").innerHTML = "Yes, I have changed"
+        }
+        document.getElementById("sampletext").style.color = "blue";
+
+    </script>
+</body>
+
+</html>
