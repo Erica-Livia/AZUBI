@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+}
+
+/* Home Page Styles */
+#home {
+    background-image: url('https://images.unsplash.com/photo-1480506132288-68f7705954bd?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    color: white;
+    height: 200px;
+    padding: 150px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#contact button {
+    width: fit-content;
+}
+
+/* Form Styles */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
